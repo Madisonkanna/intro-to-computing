@@ -1,2 +1,2 @@
-# Chapter 1 summar
+# Chapter 1 summary
 
