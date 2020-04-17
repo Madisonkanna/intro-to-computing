@@ -34,9 +34,9 @@ To program computers, we need tools that allow us to describe processes precisel
 
 A computer is a machine that can:
 
-Accept input. Input could be a human typing into keyboard.
-Execute a mechanical procedure, a procedure where each step can be executed without any thought.
-Produce output. Output could be data displayed to humans. 
+1. Accept input. Input could be a human typing into keyboard.
+2. Execute a mechanical procedure, a procedure where each step can be executed without any thought.
+3. Produce output. Output could be data displayed to humans. 
 
 Computers exist in many forms, but we’ll focus on universal computers, which are computers that can perform all possible mehanical computations on discrete inputs except for practical limits on space and time. If this sounds confusing to you, we’ll learn more about this later on! :)
 
@@ -55,7 +55,7 @@ When we think about information, we usually mean knowledge. At the smallest leve
 
 What are bits and bytes?
 
-A bit is the smallest unit of information that can be stored by a computer.
+A **bit** is the smallest unit of information that can be stored by a computer.
 
-Eight bits grouped together is a byte. 
+Eight bits grouped together is a **byte**. 
 
