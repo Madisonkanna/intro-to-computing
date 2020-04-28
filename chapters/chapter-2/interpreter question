@@ -1,0 +1,12 @@
+Hi everyone,
+
+Working through the Scheme exercises in the book, it's hard to find a good compiler/interpreter to use.
+The closest out of the few I tried was the Dr. Racket that the book recommends. I set it to
+the Racket language set to Scheme mode. I can't get a lot of the basic Scheme examples in the book to work properly.
+Any recommendations for what you are using to work through examples?
+
+Here's the Dr. Racket docs: https://docs.racket-lang.org/guide/syntax-overview.html
+It's pretty close, but definitely not enough to just type the book examples in and have them work.
+
+Thanks, 
+Anken
