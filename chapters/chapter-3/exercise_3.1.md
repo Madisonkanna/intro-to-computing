@@ -2,19 +2,19 @@
 
 *Note:* In the book, triangles are used instead of showing the complete parse tree for nested application expressions. I don't know how that works in markdown, so I use `<>`
 
-                                            *Expression*
-                                                  |
-                                        *ApplicationExpression*
-                                            |       |       |
-    (   *Expression*                                      *MoreExpressions*                                                  )
-             |                                                    |
-    *PrimitiveExpression*                           *Expression*                        *MoreExpressions*
-             |                                            |                                     |
-           **+**                                *PrimitiveExpression*            *Expression*                  *Expression*            
-                                                          |                            |                            |
-                                                       **100**               *ApplicationExpression*            *ApplicationExpression*
-                                                                                       <>                                <>
-                                                                                    **(* 5)**                        **(+ 5 5)**
+                                *Expression*
+                                        |
+                            *ApplicationExpression*
+                                |       |       |
+(   *Expression*                        *MoreExpressions*                                           )
+        |                                           |
+    *PrimitiveExpression*           *Expression*                        *MoreExpressions*
+             |                            |                                     |
+           **+**                *PrimitiveExpression*            *Expression*                  *Expression*            
+                                        |                            |                            |
+                                     **100**               *ApplicationExpression*            *ApplicationExpression*
+                                                                    <>                                <>
+                                                                **(* 5)**                        **(+ 5 5)**
 
 And in DrRacket:
 
