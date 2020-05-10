@@ -5,19 +5,19 @@
 - I assumed this would simply return the value.
 - In DrRacket:
 
-![Exercise3.2a](/images/Ex3.2a.png)
+![Exercise3.2a](/chapters/chapter-3/images/Ex3.2a.png)
 
 **b)** `(+ 1120)`
 
 - Without anything to add to that `+` primitive expression, I would get back the 1120.
 
-![Exercise3.2b](/images/Ex3.2b.png)
+![Exercise3.2b](/chapters/chapter-3/images/Ex3.2b.png)
 
 **c)** `(+ (+ 10 20) (* 2 0))`
 
 - For this one, I approached it following the orders of operations from grade school. The inner parenthesis would go first, with 10 being added to 20 to make 30. And 2 to be multipled by 0, to get zero. These values are then added according to outer level `+`, to get 30.
 
-![Exercise3.2c](/images/Ex3.2c.png)
+![Exercise3.2c](/chapters/chapter-3/images/Ex3.2c.png)
 
 **d)** `(= (+ 10 20) (* 15 (+ 5 5)))`
 
@@ -25,7 +25,7 @@
 
 DrRacket's answer (*drumroll...*):
 
-![Exercise3.2d](/images/Ex3.2d.png)
+![Exercise3.2d](/chapters/chapter-3/images/Ex3.2d.png)
 
 *Note:* The interpreter spits out an anticlimactic `#f` which apparently means False. Some extra reading was found here: [CS#431: Scheme Basics](https://courses.cs.washington.edu/courses/cse341/02wi/scheme/basics.html).
 
@@ -35,7 +35,7 @@ DrRacket's answer (*drumroll...*):
 
 DrRacket's answer:
 
-![Exercise3.2e](/images/Ex3.2e.png)
+![Exercise3.2e](/chapters/chapter-3/images/Ex3.2e.png)
 
 **f)** `(+ + <)`
 
@@ -43,4 +43,4 @@ DrRacket's answer:
 
 DrRacket's answer:
 
-![Exercise3.2f](/images/Ex3.2f.png)
+![Exercise3.2f](/chapters/chapter-3/images/Ex3.2f.png)
